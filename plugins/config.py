@@ -36,7 +36,7 @@ class Config(object):
     LOGGER = logging
     OWNER_ID = int(os.environ.get("OWNER_ID", "8302560804"))
     SESSION_NAME = "UploaderXNTBot"
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "https://t.me/Move_Download")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "https://t.me/+ZCmarlO-JlgzMjM1")
 
     TG_MIN_FILE_SIZE = 2194304000
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "inert_test_bot")
@@ -47,7 +47,7 @@ class Config(object):
 
     # Shortlink settings
     SHORT_DOMAIN = environ.get("SHORT_DOMAIN", "linkshortify.com")
-    SHORT_API = environ.get("SHORT_API", "linkshortify.com")
+    SHORT_API = environ.get("SHORT_API", "25e3fd19a4ac7dee2affd0c1890129b60c6be2d7")
 
     # Verification video link
     VERIFICATION = os.environ.get("VERIFICATION", "https://t.me/Move_Download")
